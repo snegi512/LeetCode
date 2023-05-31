@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 //https://leetcode.com/problems/add-two-numbers/
 
 type ListNode struct {
@@ -44,9 +42,4 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 		}
 	}
 	return &res
-}
-
-func main() {
-	var res, tmp ListNode
-	fmt.Println(res, tmp)
 }

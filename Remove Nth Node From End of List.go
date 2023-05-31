@@ -33,7 +33,3 @@ func step(l *ListNode, n int) (int, *ListNode, *ListNode) {
 	}
 
 }
-
-func main() {
-
-}
